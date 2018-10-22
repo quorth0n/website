@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "whirish-website",
+  "description": "Liam O'Flynn's website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Liam O'Flynn",
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
@@ -15,9 +15,14 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "graphql",
+    "whirish",
+    "liam",
+    "oflynn"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -29,6 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+    "url": "https://github.com/whirish/website.git"
+  },
+  "private": true
 }
