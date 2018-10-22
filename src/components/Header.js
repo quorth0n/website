@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond" />
+      <span className="icon fa-code" />
     </div>
     <div className="content">
       <div className="inner">
@@ -23,7 +23,7 @@ const Header = props => (
       <ul>
         <li>
           <a
-            href="javascript:;"
+            href="#void"
             onClick={() => {
               props.onOpenArticle('intro')
             }}
@@ -33,7 +33,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
+            href="#void"
             onClick={() => {
               props.onOpenArticle('work')
             }}
@@ -43,7 +43,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
+            href="#void"
             onClick={() => {
               props.onOpenArticle('about')
             }}
@@ -53,7 +53,7 @@ const Header = props => (
         </li>
         <li>
           <a
-            href="javascript:;"
+            href="#void"
             onClick={() => {
               props.onOpenArticle('contact')
             }}

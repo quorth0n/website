@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/pic02.png'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -31,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="minecraft" />
           </span>
           <p>Hi, I'm Liam.</p>
           <p>
@@ -72,10 +72,37 @@ class Main extends React.Component {
           <p>
             Anyway, I include these projects because they were in a way the last
             of my hobby projects. My later, more serious work is included on the
-            appropriately-named <a href="TODO fix">Work</a> page. Some
-            information about me personally is available on the{' '}
-            <a href="TODO fix">About</a> page, and lastly feel free to{' '}
-            <a href="TODO fix">Contact</a> me as well.
+            appropriately-named{' '}
+            <a
+              href="#void"
+              onClick={() => {
+                this.props.onCloseArticle()
+                setTimeout(() => this.props.onOpenArticle('work'), 500)
+              }}
+            >
+              Work
+            </a>{' '}
+            page. Some information about me personally is available on the{' '}
+            <a
+              href="#void"
+              onClick={() => {
+                this.props.onCloseArticle()
+                setTimeout(() => this.props.onOpenArticle('about'), 500)
+              }}
+            >
+              About
+            </a>{' '}
+            page, and lastly feel free to{' '}
+            <a
+              href="#void"
+              onClick={() => {
+                this.props.onCloseArticle()
+                setTimeout(() => this.props.onOpenArticle('contact'), 500)
+              }}
+            >
+              Contact
+            </a>{' '}
+            me as well.
           </p>
           {close}
         </article>
@@ -92,19 +119,49 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            For some time, I got involved in mobile app development using
+            Apache's Cordova framework. One of the first applications I built
+            with this was a{' '}
+            <a href="https://github.com/whirish/T905-Library">
+              library checkout system
+            </a>{' '}
+            for my local Boy Scouts troop, which also served as my earliest
+            introduction to Bootstrap. I also wrote a{' '}
+            <a href="https://github.com/whirish/book-me-now">
+              meeting room reservation app
+            </a>{' '}
+            in a psuedo-internship for Veeva Systems. Lastly, I recieved my
+            first taste of local fame with the{' '}
+            <a href="https://github.com/whirish/Tri-Valley-Buses">
+              Tri-Valley Buses
+            </a>{' '}
+            app, which tracked the location of buses along their various routes
+            with stop times. The data was returned directly from the
+            organization's API, which I obtained by reverse engineering their
+            website. I was pleasantly suprised when I learned of the coverage
+            that it had recieved in local newspapers.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Past mobile development, I continued development with Firebase that
+            I'd started with Collab.Center with a new project,{' '}
+            <a href="https://github.com/whirish/KingdomMaps">KingdomMaps</a>, an
+            interactive timeline of the world. The main vision at the time was
+            being able to select any date and seeing the historical political
+            borders for that time. I was greatly passionate about this project
+            due to my love for history, but unfortunately its ambition proved to
+            be its downfall. Nevertheless, after taking a year-long break from
+            the project to join{' '}
+            <a href="https://github.com/whirish/lend">Lend Technologies</a>, I
+            found myself getting in touch with others who shared similar ideals.
+            From this, <a href="https://github.com/chronoscio/">ChronoScio</a>{' '}
+            was born, development for which I continue to this day.
+          </p>
+          <p>
+            Many of these projects (and this website itself!) have used
+            technologies such as JS/TS, React, GraphQL, and Bootstrap on the
+            frontend. On the backend, I'm quite comfortable with Django,
+            Express, and am looking into Rust with the Rocket framework. I've
+            also done a lot of GIS work, primarily with Mapbox.
           </p>
           {close}
         </article>
@@ -121,13 +178,30 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I like to think I do more than just code. I'm active in my Boy
+            Scouts Troop (served as Senior Patrol Leader and am one requirement
+            away from Eagle) and love the outdoors. California is a great
+            location for hiking, amping, backpacking, and all the rest. I'm also
+            very passionate about the humanities; I crave episodes of Dan
+            Carlin's history podcast.
+          </p>
+          <p>
+            I tend to value giving back to others and the community as well as
+            general open-mindedness. Of course, it's only natural to brush with
+            the{' '}
+            <a href="https://www.gnu.org/philosophy/free-sw.en.html">
+              Free Software movement
+            </a>{' '}
+            as a result. I think the movement has its merits but isn't something
+            to be followed unwaveringly. Nonetheless I generally chose the GPL
+            for most of my projects and release the source for as much as I
+            reasonably can. I've spent my share of time with the Tri-Valley{' '}
+            <a href="https://coderdojo.com/">CoderDojo</a>, especially in its
+            early stages, but found myself spending less time as the
+            organization grew. I've been involved with clubs at my school, such
+            as the Cybersecurity club and the Computer Science Association, to
+            indulge in the pleasure of teaching others, a persistent challenge
+            in the constantly-evolving technical climate of today.
           </p>
           {close}
         </article>
@@ -170,6 +244,7 @@ class Main extends React.Component {
               <a
                 href="https://github.com/whirish"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
@@ -179,6 +254,7 @@ class Main extends React.Component {
               <a
                 href="https://www.linkedin.com/in/liam-oflynn/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-linkedin-square"
               >
                 <span className="label">LinkedIn</span>
@@ -189,6 +265,7 @@ class Main extends React.Component {
                 href="mailto:lpoflynn@protonmail.ch"
                 className="icon fa-envelope-o"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="label">Email</span>
               </a>

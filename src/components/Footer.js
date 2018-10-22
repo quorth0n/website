@@ -10,6 +10,7 @@ const Footer = props => (
       &copy; Liam O'Flynn. Built with: &nbsp;
       <a
         href="https://reactjs.org/"
+        rel="noopener noreferrer"
         target="_blank"
         className="icon"
         title="react"
@@ -36,6 +37,7 @@ const Footer = props => (
       </a>{' '}
       <a
         href="https://webpack.js.org/"
+        rel="noopener noreferrer"
         target="_blank"
         className="icon"
         title="webpack"
@@ -60,6 +62,7 @@ const Footer = props => (
       <a
         href="https://www.gatsbyjs.org/"
         className="icon"
+        rel="noopener noreferrer"
         target="_blank"
         title="gatsby"
       >
@@ -75,6 +78,7 @@ const Footer = props => (
       <a
         href="https://graphql.org/"
         className="icon"
+        rel="noopener noreferrer"
         target="_blank"
         title="graphql"
       >
@@ -106,7 +110,13 @@ const Footer = props => (
           />
         </svg>
       </a>{' '}
-      <a href="https://babeljs.io/" class="icon" target="_blank" title="babel">
+      <a
+        rel="noopener noreferrer"
+        href="https://babeljs.io/"
+        class="icon"
+        target="_blank"
+        title="babel"
+      >
         <svg
           class="react icon"
           viewBox="0 0 512 460"
@@ -123,6 +133,7 @@ const Footer = props => (
         href="https://sass-lang.com/"
         class="icon"
         target="_blank"
+        rel="noopener noreferrer"
         title="sass"
       >
         <svg
@@ -159,6 +170,7 @@ const Footer = props => (
         href="https://www.netlify.com/"
         class="icon"
         target="_blank"
+        rel="noopener noreferrer"
         title="netlify"
       >
         <svg
@@ -229,7 +241,7 @@ const Footer = props => (
             </g>
           </g>
         </svg>
-      </a>{' '}
+      </a>
     </p>
   </footer>
 )
