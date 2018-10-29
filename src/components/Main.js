@@ -150,7 +150,7 @@ class Main extends React.Component {
             borders for that time. I was greatly passionate about this project
             due to my love for history, but unfortunately its ambition proved to
             be its downfall. Nevertheless, after taking a year-long break from
-            the project to do backend development in Django at{' '}
+            the project to do fullstack development using Django at{' '}
             <a href="https://github.com/whirish/lend">Lend Technologies</a>,
             Inc., I found myself getting in touch with others who shared similar
             ideals. From this,{' '}
