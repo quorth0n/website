@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/pic01.jpg'
+import pic01 from '../images/pic01.png'
 import pic02 from '../images/pic02.png'
 import pic03 from '../images/pic03.jpg'
 
@@ -36,12 +36,12 @@ class Main extends React.Component {
           <p>Hi, I'm Liam.</p>
           <p>
             I've kept myself busy over the years. Aside from visual languages
-            (Scratch, et al.), I wrote my first program at the age of 10. It was
-            a simple address book in Java using the Swing toolkit. It was by no
-            means a complicated application, but it gave me enough hands-on
-            experience to satisfy my youthful curiosity for some time, and it's
-            a feeling that's stuck with me as I pushed on through the rest of my
-            projects.
+            (Scratch, et al.), I wrote my first code at the age of 10. It was a
+            simple address book in Java with display provided by the Swing
+            toolkit. It was by no means a complicated application, but it gave
+            me enough hands-on experience to satisfy my youthful curiosity for
+            some time: a feeling that's stuck with me as I pushed on through the
+            rest of my projects.
           </p>
           <p>
             While I was still in elementary or early middle school and life was
@@ -53,11 +53,11 @@ class Main extends React.Component {
             <a href="https://github.com/whirish/TheMythologyMod">
               Minecraft mod
             </a>{' '}
-            (why else would I start with Java?), and wrote a{' '}
+            (why else would I have started with Java?), and wrote a{' '}
             <a href="https://github.com/whirish/VagrantGUI">
               Vagrant GUI control tool
             </a>{' '}
-            before a plethora of them came to exist. It was around this time
+            (before a plethora of them came to exist). It was around this time
             when I started what I would consider to be my first large-scale (at
             least by comparison) project,{' '}
             <a href="https://github.com/whirish/Collab.Center">Collab.Center</a>
@@ -66,8 +66,8 @@ class Main extends React.Component {
             did get me a tour of Firebase HQ (before they were bought by Google,
             heh) and more importantly gave me the experience of working on a
             larger project that was used around the world. I even had a few
-            contributions to the repo, which made my 13 year old self nothing
-            short of ecstatic.
+            contributions to its GitHub repo, which made my 13 year old self
+            nothing short of ecstatic.
           </p>
           <p>
             Anyway, I include these projects because they were in a way the last
@@ -125,8 +125,8 @@ class Main extends React.Component {
             <a href="https://github.com/whirish/T905-Library">
               library checkout system
             </a>{' '}
-            for my local Boy Scouts troop, which also served as my earliest
-            introduction to Bootstrap. I also wrote a{' '}
+            for my local Boy Scouts troop, which also used Firebase and served
+            as my earliest introduction to Bootstrap. I also wrote a{' '}
             <a href="https://github.com/whirish/book-me-now">
               meeting room reservation app
             </a>{' '}
@@ -142,26 +142,28 @@ class Main extends React.Component {
             that it had recieved in local newspapers.
           </p>
           <p>
-            Past mobile development, I continued development with Firebase that
-            I'd started with Collab.Center with a new project,{' '}
+            Past mobile development, I continued using Firebase in a new
+            project,{' '}
             <a href="https://github.com/whirish/KingdomMaps">KingdomMaps</a>, an
             interactive timeline of the world. The main vision at the time was
             being able to select any date and seeing the historical political
             borders for that time. I was greatly passionate about this project
             due to my love for history, but unfortunately its ambition proved to
             be its downfall. Nevertheless, after taking a year-long break from
-            the project to join{' '}
-            <a href="https://github.com/whirish/lend">Lend Technologies</a>, I
-            found myself getting in touch with others who shared similar ideals.
-            From this, <a href="https://github.com/chronoscio/">ChronoScio</a>{' '}
-            was born, development for which I continue to this day.
+            the project to do backend development in Django at{' '}
+            <a href="https://github.com/whirish/lend">Lend Technologies</a>,
+            Inc., I found myself getting in touch with others who shared similar
+            ideals. From this,{' '}
+            <a href="https://github.com/chronoscio/">ChronoScio</a> was born,
+            development for which I continue to this day.
           </p>
           <p>
-            Many of these projects (and this website itself!) have used
-            technologies such as JS/TS, React, GraphQL, and Bootstrap on the
+            Many of these projects (as well as this website itself!) have used
+            technologies such as JS/TS, React, Redux, and GraphQL on the
             frontend. On the backend, I'm quite comfortable with Django,
             Express, and am looking into Rust with the Rocket framework. I've
-            also done a lot of GIS work, primarily with Mapbox.
+            also done a lot of GIS work, primarily with Mapbox. Web development
+            aside, I've also worked with C#, Java, and Linux.
           </p>
           {close}
         </article>
@@ -178,12 +180,12 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            I like to think I do more than just code. I'm active in my Boy
-            Scouts Troop (served as Senior Patrol Leader and am one requirement
-            away from Eagle) and love the outdoors. California is a great
-            location for hiking, amping, backpacking, and all the rest. I'm also
-            very passionate about the humanities; I crave episodes of Dan
-            Carlin's history podcast.
+            I like to think I do more than program. I'm active in my Boy Scouts
+            Troop (have served as Senior Patrol Leader and am one requirement
+            away from the Eagle rank) and love the outdoors. California is a
+            great location for hiking, amping, backpacking, and all the rest.
+            I'm also very passionate about the humanities; Dan Carlin's history
+            podcasts are worth a solid reccomendation.
           </p>
           <p>
             I tend to value giving back to others and the community as well as
@@ -192,16 +194,15 @@ class Main extends React.Component {
             <a href="https://www.gnu.org/philosophy/free-sw.en.html">
               Free Software movement
             </a>{' '}
-            as a result. I think the movement has its merits but isn't something
-            to be followed unwaveringly. Nonetheless I generally chose the GPL
-            for most of my projects and release the source for as much as I
-            reasonably can. I've spent my share of time with the Tri-Valley{' '}
+            as a result. I generally chose the GPL for most of my projects and
+            release the source for as much as I reasonably can. I've spent my
+            share of time with the Tri-Valley{' '}
             <a href="https://coderdojo.com/">CoderDojo</a>, especially in its
             early stages, but found myself spending less time as the
             organization grew. I've been involved with clubs at my school, such
-            as the Cybersecurity club and the Computer Science Association, to
-            indulge in the pleasure of teaching others, a persistent challenge
-            in the constantly-evolving technical climate of today.
+            as the Cybersecurity club and the Computer Science Association to
+            provide instruction for my peers; which presents a persistent
+            challenge in the constantly-evolving technical climate of today.
           </p>
           {close}
         </article>
