@@ -65,9 +65,9 @@ class Main extends React.Component {
             spaghetti code and the CSS was uglier than a monkey's armpit, but it
             did get me a tour of Firebase HQ (before they were bought by Google,
             heh) and more importantly gave me the experience of working on a
-            larger project that was used around the world. I even had a few
-            contributions to its GitHub repo, which made my 13 year old self
-            nothing short of ecstatic.
+            larger project that was used around the world. I even made a few
+            contributions to Firebase's GitHub repo, which made my 13 year old self
+            nothing short of ecstatic when they were accepted.
           </p>
           <p>
             Anyway, I include these projects because they were in a way the last
@@ -183,7 +183,7 @@ class Main extends React.Component {
             I like to think I do more than program. I'm active in my Boy Scouts
             Troop (have served as Senior Patrol Leader and am one requirement
             away from the Eagle rank) and love the outdoors. California is a
-            great location for hiking, amping, backpacking, and all the rest.
+            great location for hiking, camping, backpacking, and all the rest.
             I'm also very passionate about the humanities; Dan Carlin's history
             podcasts are worth a solid reccomendation.
           </p>
