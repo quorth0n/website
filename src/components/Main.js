@@ -180,29 +180,38 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            I like to think I do more than program. I'm active in my Boy Scouts
-            Troop (have served as Senior Patrol Leader and am one requirement
-            away from the Eagle rank) and love the outdoors. California is a
-            great location for hiking, camping, backpacking, and all the rest.
-            I'm also very passionate about the humanities; Dan Carlin's history
-            podcasts are worth a solid reccomendation.
+            I do my best to do more than just code. Throught my formative years
+            and adolescence I was active in my Boy Scouts Troop, serving as Senior
+            Patrol Leader and earning the rank of Eagle. Today I still love the outdoors,
+            California is a great area for hiking, camping, backpacking.
+            I'm also very passionate about the humanities and choose to spend much of my time 
+            informally studying history, philosophy, and behavior psychology.
           </p>
           <p>
-            I tend to value giving back to others and the community as well as
-            general open-mindedness. Of course, it's only natural to brush with
-            the{' '}
-            <a href="https://www.gnu.org/philosophy/free-sw.en.html">
-              Free Software movement
-            </a>{' '}
-            as a result. I generally chose the GPL for most of my projects and
-            release the source for as much as I reasonably can. I've spent my
-            share of time with the Tri-Valley{' '}
-            <a href="https://coderdojo.com/">CoderDojo</a>, especially in its
-            early stages, but found myself spending less time as the
-            organization grew. I've been involved with clubs at my school, such
-            as the Cybersecurity club and the Computer Science Association to
-            provide instruction for my peers; which presents a persistent
-            challenge in the constantly-evolving technical climate of today.
+            I generally chose the GNU Public License for most of my coding projects and
+            release the source for as much as I can. I appreciate the free software community
+            but have my doubts about how practical it would be as the end all and be all of software
+            development, as most of its constiuents seem to believe it should be. Throughout early
+            high school I spent a great deal of time with the Tri-Valley{' '}
+            <a href="https://coderdojo.com/">CoderDojo</a>, while it was in its early stages
+            in my community. I've been involved with various tech clubs at my school, such
+            as the Cybersecurity club and the Computer Science Association. The goal of this
+            has been to provide up-to-date instruction and development assistance for my peers, 
+            a persistent challenge in the constantly-evolving technical climate of today.
+          </p>
+          <p>
+            I don't have a favorite this, favorite that, favorite song, favorite movie, or favorite joke.
+            I like many things in different ways. I listen to Romantic and Baroque era classical music, 
+            noise rock, European art music, black metal, hip hop, and popular music. I find Japan has a lot
+            of underrated experimental rock projects that fly under a lot of people's radar. I vehemently 
+            disagree with the notion that because something is popular it doesn't have artistic merit.
+            I have seen every David Lynch movie multiple times and am a big fan of Scorsese's earlier films
+            as well. I don't enjoy Tarantino as much as I used to but I appreciate that he gave arthouse/indie
+            films a rise in popularity in the 90s and beyond. I hold a strong interest in design principles which
+            has led to an interest in avante-garde fashion designers such as Rick Owens, Yohji Yamahoto, and Raf Simons.
+            I will likely never vote for a Democrat or Republican presidential candidate because I don't believe
+            them to be terribly different from each other with the exception of stances on social issues and 
+            campaigning techniques.
           </p>
           {close}
         </article>
